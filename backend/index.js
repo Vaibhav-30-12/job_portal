@@ -20,7 +20,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use(cookieParser());
 const corsOptions = {
-    origin:'https://job-portal-taupe-phi.vercel.app',
+    origin:'http://localhost:8000',
     credentials:true
 }
 
